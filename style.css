@@ -212,10 +212,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
     padding: 5% 5% 5% 5%;
 }
-
+.my-adjective-box > img {
+    width: 50%;
+    height: 50%;
+}
+.my-adjectives-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
 
 /********* hover *********/
 .my-box:hover {
