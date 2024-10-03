@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+    font-family: "Open Sans", sans-serif;
+}
+
+/********* header *********/
+.my-header {
+    width: 100%;
+    height: 5.5rem;
+    background-color: rgba(0, 0, 0, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.my-nav-container > ul {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+}
+
+.my-nav-container > ul > li > a {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+}
+
+.my-nav-container > ul > li > a > i {
+    font-size: 15px;
+}
+
+.my-logo {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.my-logo > h2 > span {
+    color: #FFC451;
+}
+
+.my-dropdown {
+    background-color: #e4e4e4;
+    position: absolute;
+    top: 100%;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.my-dropdown > ul > li {
+    padding: 8%;
+}
+
+.my-dropdown > ul > li > a {
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.my-deep-dropdown {
+    background-color: #e4e4e4;
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    right: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.start-b {
+    border: #FFC451 1px solid;
+    border-radius: 5px;
+    padding: .8% 1.4% .4% 1.4%;
+    cursor: pointer;
+}
+
+.start-b > h3 {
+    font-size: .8rem;
+}
+
+.my-deep-dropdown > ul > li {
+    padding: 10%;
+}
+
+.my-deep-dropdown > ul > li > a {
+    width: 100%;
+    text-transform: capitalize;
+    color: black;
+}
+
+.my-title-box {
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./image/Gp Bootstrap Template Demo_files/hero-bg.jpg");
+    background-size: cover;
+}
+
+.my-title-box-gray-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10% 10% 0 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.my-title-text {
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.my-title-text > h5 {
+    font-size: 1.2rem;
+    padding-top: 2%;
+}
+
+.my-title-text > h1 > span {
+    color: #FFC451;
+}
+
+.my-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 10% 10% 10%;
+    gap: 5%;
+}
+
+.my-box {
+    width: 80%;
+    padding: 4rem;
+    border: 1px solid white;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    transition: all 500ms linear;
+}
+
+.my-box > i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #FFC451;
+    padding-left: 17%;
+}
+
+.my-box > p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.my-session-box {
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.my-session-text-box {
+    width: 50%;
+}
+
+.my-img-box {
+    width: 50%;
+}
+
+.my-img-box > img {
+    width: 95%;
+    height: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+.my-session-text-box>h6 {
+    font-size: 1.8rem;
+}
+.my-slide-box{
+    width: 20%;
+    height: 20%;
+}
+.my-slide-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner>img{
+    padding: 10%;
+}
+.carousel-item>img{
+    padding: 10%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #fbcc6c;
+    padding: 20%;
+}
+.my-adjectives-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5% 5% 5% 5%;
+}
+
+
+/********* hover *********/
+.my-box:hover {
+    border: #FFC451 1px solid;
+}
+
+.my-box:hover > h5 {
+    color: #FFC451;
+}
+
+.my-nav-container > ul > li > a:hover {
+    color: #FFC451;
+}
+
+.my-dropdown-b:hover > .my-dropdown,
+.my-dropdown:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.my-deep-dropdown-b:hover > .my-deep-dropdown,
+.my-deep-dropdown:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+/********* font *********/
+.base-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
