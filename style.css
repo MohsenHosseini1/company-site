@@ -249,6 +249,76 @@
 .my-adjective>p{
     text-indent: 60px;
 }
+.my-services{
+    padding: 2% 5% 5% 5%;
+}
+.my-service-line{
+    display: flex;
+}
+.my-service-line>h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+.my-line{
+    background-color: #FFC451;
+    height: 1px;
+    width: 10%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.service-title>h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.service-box{
+    padding: 2% 0 2% 0;
+}
+.service-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #c8c8c8 1px solid;
+    padding: 2.8%;
+    box-sizing: border-box;
+    width: 417px;
+    height: 361px;
+}
+.service-box-container>p{
+    width: 375px;
+    height: 60px;
+}
+.icon-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #000000;
+    background-color: #FFC451;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    padding: 2%;
+}
+.service-box-container-line-1, .service-box-container-line-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    gap: 2%;
+}
+.service-box-container > .icon-service {
+    margin-bottom: 10px;
+}
+
+.service-box-container > h3 {
+    padding-bottom: 10px;
+}
+
+.service-box-container > p {
+    padding-top: 10px;
+}
 /********* hover *********/
 .my-box:hover {
     border: #FFC451 1px solid;
