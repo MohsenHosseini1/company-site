@@ -214,17 +214,41 @@
     align-items: center;
     padding: 5% 5% 5% 5%;
 }
-.my-adjective-box > img {
-    width: 50%;
-    height: 50%;
-}
+
+
 .my-adjectives-box1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 3%;
 }
-
+.img-adjective {
+    width: 100%;
+    height: 100%;
+}
+.my-adjective-img {
+    width: 50%;
+    height: 50%;
+}
+.my-adjectives-img>img{
+    width: 100%;
+    height: 100%;
+}
+.my-adjective-container {
+    width: 50%;
+    height: 50%;
+}
+.my-adjective>h5>i{
+    font-size: 2.2rem;
+    color: #FFC451;
+    padding: 2%;
+}
+.my-adjective>h5{
+    font-weight: 600;
+}
+.my-adjective>p{
+    text-indent: 60px;
+}
 /********* hover *********/
 .my-box:hover {
     border: #FFC451 1px solid;
