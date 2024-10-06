@@ -454,6 +454,87 @@ body{
     gap: 10px;
     font-size: 25px;
 }
+
+
+
+
+
+.main-container{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "btns btns"
+    "my-col-1 my-col-2";
+    grid-template-columns: repeat(2,40%);
+    grid-template-rows: 2rem auto;
+    justify-content: center;
+}
+
+.button-container-main{
+    grid-area: btns;
+}
+
+.button-container-main > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.button-container-main > ul > li {
+    width: 5%;
+    text-align: center;
+}
+
+
+.my-col-1{
+    grid-area: my-col-1;
+}
+.my-col-1 > div,.my-col-2 > div{
+    width: 90%;
+    overflow: hidden;
+}
+.my-col-1 > div > img,.my-col-2 > div > img{
+    width: 100%;
+    display: block;
+}
+.my-col-2{
+    grid-area: my-col-2;
+}
+
+.my-col-1,.my-col-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 25px;
+}
+
+.my-col-1 > div:hover>.my-col-overlay,.my-col-2 > div:hover>.my-col-overlay{
+    bottom: 0;
+}
+
+.my-col-1 > div,.my-col-2 > div{
+    position: relative;
+}
+.my-col-overlay > h3{
+    grid-area: h3;
+    padding-left: 15px;
+
+}
+.my-col-overlay > p{
+    grid-area: p;
+    padding-left: 15px;
+}
+.my-col-overlay > .icon-container{
+    grid-area: icon-container;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
 /********* hover *********/
 .start-b:hover {
     background-color: #FFC451;
