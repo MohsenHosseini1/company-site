@@ -456,9 +456,6 @@ body{
 }
 
 
-
-
-
 .main-container{
     width: 100%;
     display: grid;
@@ -595,7 +592,30 @@ body{
 .team-box-icon{
     position: relative;
 }
+.contact{
+    background-color: #f4f4f4 ;
+    padding-bottom: 2%;
+}
+.contact-box-text>h3{
+    margin: 0;
+}
+.padding-left-contact{
+    padding: 0 0 2% 5%;
+}
+.start-b1{
+    width: 25%;
+    border-radius: 5px;
+    padding: .8% 1.4% .4% 1.4%;
+    margin-left: 33%;
+    cursor: pointer;
+    background-color: #FFC451 ;
+    text-align: center;
+}
 
+.start-b1> h3 {
+    padding-top: 3%;
+    font-size: .8rem;
+}
 /********* hover *********/
 .start-b:hover {
     background-color: #FFC451;
