@@ -595,6 +595,7 @@ body{
 .contact{
     background-color: #f4f4f4 ;
     padding-bottom: 2%;
+
 }
 .contact-box-text>h3{
     margin: 0;
@@ -615,6 +616,78 @@ body{
 .start-b1> h3 {
     padding-top: 3%;
     font-size: .8rem;
+}
+.my-footer{
+    background-color: #000000;
+    color: white;
+    padding: 2% 5% 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-part{
+    width: 33.3%;
+}
+.footer-part1{
+     width: 33.3%;
+    display: flex;
+    height: 70%;
+}
+.footer-part1 h3{
+    font-size: 1.5rem;
+}
+.footer-part1 i {
+    color: #FFC451;
+}
+.team-box-text{
+    padding: 5%;
+}
+.under-footer{
+    text-align: center;
+    padding-top: 3%
+}
+.under-footer span{
+    color:#FFC451 ;
+}
+.search-box{
+    display: flex;
+}
+.search-box input{
+    border-radius: 5% 0 0 5%;
+}
+.orange-search-box{
+    background-color: #FFC451 ;
+    border-radius: 0 5% 5% 0;
+    padding: 2%;
+}
+.team-person{
+    background-image: url("./image/Gp Bootstrap Template Demo_files/testimonials-bg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.team-person-gray-box{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5%;
+}
+.team-person-gray-box{
+    color: white;
+
+}
+.photo-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.photo-box img{
+    width: 100%;
+    height: 100%;
+}
+.photo-box-container{
+    width: 100%;
+}
+.icon-person i {
+    color: #FFC451;
 }
 /********* hover *********/
 .start-b:hover {
